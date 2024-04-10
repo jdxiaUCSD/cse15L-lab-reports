@@ -130,6 +130,5 @@ public class Hello {
 
 Absolute Path: /Users/goats/lecture1
 
-When `cat` recieves a file as an argument, it prints the contents of that file.
-
+When `cat` recieves a file as an argument, it prints the contents of that file. This is not an error.
 
