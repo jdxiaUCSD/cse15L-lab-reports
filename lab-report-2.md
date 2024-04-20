@@ -1,5 +1,7 @@
-```
+`ChatServer` Server Contents With Helper Method `StringHandler`
 
+
+```
 class StringHandler implements URLHandler {
     List<String> lines = new ArrayList<>();
     public String handleRequest(URI url){
@@ -53,5 +55,4 @@ class ChatServer {
         Server.start(port, new StringHandler());
     }
 }
-
 ```
