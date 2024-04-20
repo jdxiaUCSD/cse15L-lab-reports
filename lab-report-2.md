@@ -1,5 +1,4 @@
-`ChatServer` Server Contents With Helper Method `StringHandler`
-
+# `ChatServer` Server Contents With Helper Method `StringHandler`
 
 ```
 class StringHandler implements URLHandler {
