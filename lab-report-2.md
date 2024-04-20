@@ -77,5 +77,13 @@ b. The `main` method takes in an integer to create a port. The `handleRequest` m
 c. This request changed the `URI` url to "http://localhost:4005/add-message?s=Hi!&user=User1", the `lines` field to include the `String` "User2: Hey!", and the `String[]` "queries".
 
 ## Part 2
-1
-2
+
+1. ![Alt Text1](https://github.com/jdxiaUCSD/cse15L-lab-reports/blob/main/Image%204-19-24%20at%207.43%20PM.jpg)
+
+2. ![Alt Text1](https://github.com/jdxiaUCSD/cse15L-lab-reports/blob/main/Image%204-19-24%20at%207.55%20PM.jpg)
+
+3. ![Alt Text3](https://github.com/jdxiaUCSD/cse15L-lab-reports/blob/main/Image%204-19-24%20at%207.44%20PM.jpg)
+
+## Part 3
+
+I didn't know that urls and an internet brower's search tools could be used to manipulate code. I thought that the integration of CS principles I'm learning in my classes being tied to my everyday applications of the web was very inteeresting.
