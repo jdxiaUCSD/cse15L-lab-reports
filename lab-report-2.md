@@ -1,22 +1,22 @@
 `class StringHandler implements URLHandler {`
-    List<String> lines = new ArrayList<>();
-    public String handleRequest(URI url){
-        if (url.getPath().equals("/")){
-            String toBeShown ="";
-            for (String line:lines){
-                toBeShown += line + "\n";
-            }
-            return toBeShown;
-        }
-        String query = url.getQuery();
-        if (url.getPath().equals("/")) {
-            return null;
-        }
-        if (query==null){
-            return "use /add-message to chat";
-        }
-        String[] queries = query.split("&");
-        if (url.getPath().equals("/add-message")) {
+`  `  List<String> lines = new ArrayList<>();`
+`   ` public String handleRequest(URI url){`
+`    `    if (url.getPath().equals("/")){`
+`     `       String toBeShown ="";`
+`      `      for (String line:lines){`
+`       `         toBeShown += line + "\n";
+`        `    }
+`        `    return toBeShown;
+`        }
+`        String query = url.getQuery();
+`        if (url.getPath().equals("/")) {
+`            return null;
+`        }
+`        if (query==null){
+`            return "use /add-message to chat";
+`        }
+`        String[] queries = query.split("&");
+`        if (url.getPath().equals("/add-message")) {
             if (queries[0].startsWith("s=")) {
                 String toAdd = queries[0].split("=")[1];
                 if (queries[1].startsWith("user=")){
