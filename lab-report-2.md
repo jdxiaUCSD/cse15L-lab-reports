@@ -1,4 +1,4 @@
-`class StringHandler implements URLHandler {
+`class StringHandler implements URLHandler {`
     List<String> lines = new ArrayList<>();
     public String handleRequest(URI url){
         if (url.getPath().equals("/")){
