@@ -1,6 +1,7 @@
-# ChatServer 
+# Lab 2 
 
-## `ChatServer` Server Contents With Helper Method `StringHandler`
+## Part 1:
+### `ChatServer` Server Contents With Helper Method `StringHandler`
 
 ```
 class StringHandler implements URLHandler {
@@ -58,7 +59,7 @@ class ChatServer {
 }
 ```
 
-## Chat Server Examples
+### Chat Server Examples
 1.
 ![Chat Server Example 1](https://github.com/jdxiaUCSD/cse15L-lab-reports/blob/main/Image%202.jpg)
 a. I utilize a `main` method and a method called `handleRequest`.
@@ -74,3 +75,7 @@ a. I utilize a `main` method and a method called `handleRequest`.
 b. The `main` method takes in an integer to create a port. The `handleRequest` method takes in a url as an argument. For this example, the `main` method took in the integer 4005 to create a port at this address. The `handleRequest` took in the url. "http://localhost:4005/add-message?s=Hi!&user=User1". The class field `lines` holds all of the chat logs of this server. 
 
 c. This request changed the `URI` url to "http://localhost:4005/add-message?s=Hi!&user=User1", the `lines` field to include the `String` "User2: Hey!", and the `String[]` "queries".
+
+## Part 2
+1
+2
