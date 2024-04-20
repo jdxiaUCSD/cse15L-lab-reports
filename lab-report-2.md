@@ -86,4 +86,4 @@ c. This request changed the `URI` url to "http://localhost:4005/add-message?s=Hi
 
 ## Part 3
 
-I didn't know that urls and an internet brower's search tools could be used to manipulate code. I thought that the integration of CS principles I'm learning in my classes being tied to my everyday applications of the web was very inteeresting.
+I didn't know that urls and an internet brower's search tools could be used to manipulate code. I thought that the integration of CS principles I'm learning in my classes being tied to my everyday applications of the web was very interesting.
