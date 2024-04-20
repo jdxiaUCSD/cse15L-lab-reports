@@ -59,5 +59,5 @@ class ChatServer {
 ```
 
 ## Chat Server Examples
-1. ![Chat Server Example 1](https://imgur.com/a/Wd8MdDL)
+1. ![Chat Server Example 1](https://github.com/jdxiaUCSD/cse15L-lab-reports/blob/main/Image%202.jpg)
 2. ![Chat Server Example 2](Image 1.jpg)
