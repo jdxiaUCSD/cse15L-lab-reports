@@ -78,7 +78,7 @@ c. This request changed the `URI` url to "http://localhost:4005/add-message?s=Hi
 
 ## Part 2
 
-1. ![Alt Text1](https://github.com/jdxiaUCSD/cse15L-lab-reports/blob/main/Image%204-19-24%20at%207.43%20PM.jpg)
+1. ![Alt Text1](./Image 4-19-24 at 6.58 PM (1).jpg)
 
 2. ![Alt Text1](https://github.com/jdxiaUCSD/cse15L-lab-reports/blob/main/Image%204-19-24%20at%207.55%20PM.jpg)
 
