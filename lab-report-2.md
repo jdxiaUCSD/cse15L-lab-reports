@@ -82,9 +82,11 @@ c. This request changed the `URI` url to "http://localhost:4011/add-message?s=Hi
 
 1. ![Alt Text1](./Image 4-19-24 at 6.58 PM (1).jpg)
 
-2. ![Alt Text1](./Image 4-19-24 at 7.44 PM.jpg)
+2. ![Alt Text1](./privatekey.jpg)
 
-3. ![Alt Text3](./Image 4-19-24 at 7.55 PM.jpg)
+4. ![Alt Text1](./Image 4-19-24 at 7.44 PM.jpg)
+
+5. ![Alt Text3](./Image 4-19-24 at 7.55 PM.jpg)
 
 ## Part 3
 
