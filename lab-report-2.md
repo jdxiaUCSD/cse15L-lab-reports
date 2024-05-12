@@ -61,20 +61,22 @@ class ChatServer {
 
 ### Chat Server Examples
 1.
-![Chat Server Example 1](./Image1.jpg)
+![Chat Server Example 1](./chatserver1.jpg)
+![Chat Server Example 1](./chatserver2.jpg)
 a. I utilize a `main` method and a method called `handleRequest`.
 
-b. The `main` method takes in an integer to create a port. The `handleRequest` method takes in a url as an argument. For this example, the `main` method took in the integer 4005 to create a port at this address. The `handleRequest` took in the url. "http://localhost:4005/add-message?s=Hey!&user=User2". The class field `lines` holds all of the chat logs of this server. 
+b. The `main` method takes in an integer to create a port. The `handleRequest` method takes in a url as an argument. For this example, the `main` method took in the integer 4011 to create a port at this address. The `handleRequest` took in the url. "http://localhost:4011/add-message?s=Hey!&user=User1". The class field `lines` holds all of the chat logs of this server. 
 
-c. This request changed the `URI` url to "http://localhost:4005/add-message?s=Hey!&user=User2", the `lines` field to include the `String` "User1: Hi!", and the `String[]` "queries".
+c. This request changed the `URI` url to "http://localhost:4011/add-message?s=Hey!&user=User1" and the `lines` field, which was previously empty,  to include the `String` "User1: Hi!".
 
 2.
-![Chat Server Example 2](./Image 2.jpg)
+![Chat Server Example 1](./chatserver2.jpg)
+![Chat Server Example 1](./chatserver3.jpg)
 a. I utilize a `main` method and a method called `handleRequest`.
 
-b. The `main` method takes in an integer to create a port. The `handleRequest` method takes in a url as an argument. For this example, the `main` method took in the integer 4005 to create a port at this address. The `handleRequest` took in the url. "http://localhost:4005/add-message?s=Hi!&user=User1". The class field `lines` holds all of the chat logs of this server. 
+b. The `main` method takes in an integer to create a port. The `handleRequest` method takes in a url as an argument. For this example, the `main` method took in the integer 4011 to create a port at this address. The `handleRequest` took in the url. "http://localhost:4011/add-message?s=Hi!&user=User2". The class field `lines` holds all of the chat logs of this server. 
 
-c. This request changed the `URI` url to "http://localhost:4005/add-message?s=Hi!&user=User1", the `lines` field to include the `String` "User2: Hey!", and the `String[]` "queries".
+c. This request changed the `URI` url to "http://localhost:4011/add-message?s=Hi!&user=User2" and the `lines` field, which previously had the `String` "User1: Hi!" to include the `String` "User2: Hey!".
 
 ## Part 2
 
