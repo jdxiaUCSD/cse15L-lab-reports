@@ -44,6 +44,7 @@ static void reverseInPlace(int[] arr) {
 5. Fix: The original codeblock works as intended until the for loop reaches arr.length/2. At this point, the arr[i] will be pointed toward indexes that have already had their values changed. To fix this, I am swapping the values, moving from the most extreme ends of the array to the center. This for loop will iterate until i reaches the middle index of the array. Thus, the arr[i] will not be pointing to already changed values.
 
 # Part 2:
+Source for all following command information: https://www.geeksforgeeks.org/grep-command-in-unixlinux/#
 1. 
 ```
 goats@Jaydens-Macbook technical % grep -l "suppose" biomed/*.txt
