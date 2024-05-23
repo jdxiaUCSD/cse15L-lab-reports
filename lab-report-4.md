@@ -14,4 +14,4 @@ Edits ListExamples.java to fix the bug.
 Keys Pressed: `javac -cp . : lib/hamcrest-core-1.3. jar: lib/junit-4.13.2.jar *- java` `<enter>`, `java -cp .: lib/hamcrest-core-1.3.jar:lib/junit-4.13.2.jar org.ju nit. runner. JUnitCore ListExamplesTests` `<enter>`
 Compiles and runs tests
 6. ![Screenshot](./lab7-6.jpg)
-Keys Pressed: `git add .` `<enter>` `git commit -m 'fixed bugs` `<enter>` `git push origin main` `<enter>` `jdxiaUCSD` `<cmd> + v` (password was in clipboard) `<enter<`
+Keys Pressed: `git add .` `<enter>` `git commit -m 'fixed bugs` `<enter>` `git push origin main` `<enter>` `jdxiaUCSD` `<cmd> + v` (password was in clipboard) `<enter>`
