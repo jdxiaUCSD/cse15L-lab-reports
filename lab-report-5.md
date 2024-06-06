@@ -40,7 +40,7 @@ java Error.java
 ```
 c. `bash run.sh`
 
-d. To fix the bug, move `i++` to the line after the `System.out.println("Count: " + i);`.
+d. To fix the bug, move `i++` to the line after the `System.out.println("Count: " + i);` in Error.java.
 
 ## 2: Reflection
 
